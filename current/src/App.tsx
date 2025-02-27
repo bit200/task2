@@ -6,6 +6,7 @@ import Greeting from './Greeting.tsx'
 // console.log('slug', urlSlug('Sir James Paul McCartney MBE is an English singer-songwriter'));
 
 function App() {
+  console.log("APP RENDER")
   return (
     <div className="App">
       <Greeting></Greeting>
